@@ -1,0 +1,29 @@
+{
+    "extends": "../../../tsconfig.root.json",
+    "references": [
+        {
+            "path": "../tronlink/tsconfig.all.json"
+        },
+        {
+            "path": "../walletconnect/tsconfig.all.json"
+        },
+        {
+            "path": "../ledger/tsconfig.all.json"
+        },
+        {
+            "path": "../tokenpocket/tsconfig.all.json"
+        },
+        {
+            "path": "../bitkeep/tsconfig.all.json"
+        },
+        {
+            "path": "../okxwallet/tsconfig.all.json"
+        },
+        {
+            "path": "./tsconfig.cjs.json"
+        },
+        {
+            "path": "./tsconfig.esm.json"
+        }
+    ]
+}
